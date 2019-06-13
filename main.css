@@ -1,0 +1,359 @@
+@font-face {
+    font-family: "Georgia";
+    src: url("./assets/fonts/Georgia.ttf");
+    }
+    
+root {
+        box-sizing: border-box;
+    }
+    
+*,
+*::before,
+*::after {
+        box-sizing: inherit;
+    }
+body{
+    margin: 0;
+}
+.navigation{
+    display: inline-block;
+    height: 120px;
+    background: black;
+    border-top: #40aed7 solid 5px;
+    position: relative;
+    width: 100%;
+    color: white;
+}
+
+.astounding span{
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.astounding{
+    margin-top: 20px;
+    color: #979797;
+    font-family: Georgia;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+}
+
+.links{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    height:50px;
+
+}
+.links li{
+    display: inline-block;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    line-height: 40px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
+}
+
+.links a:hover{
+    background:#3fadd7;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.logo p{
+    width: 185px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.logo span{
+    display: block;
+}
+
+.content p:first-child{
+    font-size: 124px;
+    word-wrap: break-word;
+    max-width: 890px;
+    font-family: Georgia;
+    color: #333333;
+    font-weight: 400;
+    line-height: 111.6px;
+    padding-left: 20px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+.content span{
+    display: block;
+}
+.service_title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.service_title div{
+    max-width: 223px;
+    text-align: center;
+    color: #333333;
+    font-family: Georgia;
+    font-size: 32px;
+    border: 2px solid grey;
+}
+
+.service_title div:hover{
+    background-color: #40aed7;
+    cursor: pointer;
+    color: #fff;
+}
+
+.description{
+    width: 159px;
+    font-family: Georgia;
+    font-size: 12px;
+    line-height: 16.8px;
+    padding-top: 10px;
+    padding-left:35px;
+    padding-bottom: 10px;
+}
+.service_title p{
+    margin: 0;
+}
+.service_title img{
+    padding: 20px;
+}
+
+.meet{
+    color: #d3d3d3;
+    font-family: Georgia;
+    font-size: 124px;
+    font-weight: 400;
+    line-height: 124px;
+    text-align: center;
+    margin: 60px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items:center;
+    padding-bottom: 50px;
+}
+
+.ractangle{
+    height: 225px;
+    background: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.photos div{
+    width: 225px;
+    justify-content: center;
+}
+
+.img-description{
+    color: #333333;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22.4px;
+}
+.photo-description{
+    color: #979797;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 10px;
+}
+.photos a{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #40aed7;
+    font-family: Georgia;
+    font-size: 13px;
+}
+.quick-access{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-content: center;
+    background-color: #303030;
+    padding-bottom: 50px;
+
+}
+
+.blog h3{
+    color: #979797;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15.6px;
+}
+
+.blog h2{
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.post{
+    width: 223px;
+    color: #979797;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+
+.admin{
+    color: #666666;
+    font-family: Georgia;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.admin a{
+    color: #3fadd7;
+    text-decoration: none;
+}
+
+.reed-more{
+    text-decoration: none;
+    color: #40aed7;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+}
+
+.quick-links a{
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    color: #40aed7;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 34.45px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+    border-color: #404040;
+}
+
+.quick-links h2{
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.tweets h2{
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.tweets p{
+    width: 220px;
+    color: #979797;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+
+.tweets a{
+    text-decoration: none;
+    color: #3fadd7;
+}
+
+.contact-form h2{
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+
+}
+
+.contact-form{
+    width: 225px;
+}
+
+.contact-form input{
+    width: 225px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #222222;
+    color: #989898;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    padding-left: 6px;
+    border: none;
+}
+
+.contact-form textarea{
+    width: 225px;
+    margin-bottom: 10px;
+    background-color: #222222;
+    color: #989898;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    padding-left: 6px;
+    border: none;
+}
+
+.contact-form button{
+    width: 55px;
+    height: 35px;
+    background: url(./assets/img/buttong_bg.png) no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14.4px;
+    text-transform: uppercase;
+    border: none;
+}
+
+footer{
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #979797;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+}
